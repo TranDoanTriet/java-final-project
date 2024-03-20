@@ -1,0 +1,26 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+#nav-general-image{
+	height: 160px;
+	background: url("../images/book-banner.png") bottom center no-repeat;
+	background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;/* Prevent background image from repeating */
+	
+}
+
+#nav-general-login-group{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar .nav-item:hover .nav-link{
+	color: green;
+}
+
+.border-bottom-flur{
+	border-bottom: 1px solid #b6b6b6;
+}
