@@ -9,4 +9,14 @@ public class defaultController {
 	public String index() {
 		return "index";
 	}
+	
+	@RequestMapping("/signup")
+	public String signup() {
+		return "signup";
+	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		return "login";
+	}
 }

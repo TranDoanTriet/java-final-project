@@ -9,8 +9,8 @@
 		</div>
 		
 		<div class="col-md-2" id="nav-general-login-group">
-			<button type="button" class="btn btn-outline-success me-2"><i class="fa-solid fa-right-to-bracket me-1"></i>Login</button>
-			<button type="button" class="btn btn-outline-success"><i class="fa-solid fa-user-plus me-1"></i>Sign up</button>
+			<a href="login.htm" class="btn btn-outline-success me-2"><i class="fa-solid fa-right-to-bracket me-1"></i>Login</a>
+			<a href="signup.htm" class="btn btn-outline-success"><i class="fa-solid fa-user-plus me-1"></i>Sign up</a>
 		</div>
 		
 	</div>
@@ -21,12 +21,12 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house me-1"></i>Home</a>
+          <a class="nav-link active" aria-current="page" href="index.htm"><i class="fa-solid fa-house me-1 color-green"></i>Home</a>
         </li>
         
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-list me-1"></i>Category
+            <i class="fa-solid fa-list me-1 color-green"></i>Category
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Comic</a></li>
@@ -36,7 +36,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="fa-solid fa-money-bill me-1"></i>Price
+            <i class="fa-solid fa-money-bill me-1 color-green"></i>Price
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="#">0 - 50k</a></li>

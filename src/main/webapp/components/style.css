@@ -4,9 +4,9 @@
 	padding: 0;
 }
 #nav-general-image{
-	height: 160px;
+	height: 80px;
 	background: url("../images/book-banner.png") bottom center no-repeat;
-	background-size: cover; /* Cover the entire container */
+	background-size: 100% 100%; /* Cover the entire container */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat;/* Prevent background image from repeating */
 	
@@ -21,6 +21,21 @@
 	color: green;
 }
 
-.border-bottom-flur{
-	border-bottom: 1px solid #b6b6b6;
+.home-image-under .home-image-under-hello{
+	font-size: 65px;
+	z-index: 1000;
+	color: white;
+}
+
+.home-image-under {
+	background: url("../images/books-body-index.jpg") bottom center no-repeat;
+	background-size: 100% 100%; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;/* Prevent background image from repeating */
+}
+
+.flur{
+	z-index: 100;
+	background-color: #333;
+	opacity: 0.68;
 }
